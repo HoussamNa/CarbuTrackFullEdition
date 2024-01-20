@@ -4,13 +4,12 @@ services:
     image: mysql:latest
     container_name: mysql-container1
     environment:
-      MYSQL_ROOT_PASSWORD: "root"   # Set the desired root password
-      MYSQL_USER: "root"   # Set the desired username
-      MYSQL_PASSWORD: "root"   # Set the desired password
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
     ports:
       - "3306:3306"
     networks:
       - microservices-network
+
   # Consul for Service Discovery
   consul:
     image: consul:1.15.4
