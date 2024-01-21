@@ -3,7 +3,7 @@
 
 # _ **RAPPORT CARBUTRACK** _
 
-![CarbuTrackNobg](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/dad6f3b6-83fb-4812-b8d2-a4f6237b43e2)
+![CarbuTrack](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/2c09535f-475f-4ad9-a930-38a7b954db31)
 
 ## _ **Réalisé par :** _
 
@@ -37,9 +37,9 @@ L'architecture microservices a été choisie pour ce projet en raison de ses nom
 
 ## Architecture Microservices :
 
-![](RackMultipart20240121-1-gwx6n6_html_55754367dc2036a5.jpg)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/b40732ef-6bbc-45e9-aedd-87ea0049c436)
 
-![](RackMultipart20240121-1-gwx6n6_html_818b1dfd3351764a.jpg)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/aceacf62-9aea-4e1f-9e30-7176e0d29204)
 
 ## Description des services :
 
@@ -111,21 +111,24 @@ Surveillance : Implémentation des mécanismes de suivi et de surveillance pour 
 
 Lors de la dockerisation d'une application, le processus implique la création d'un fichier Dockerfile qui décrit comment construire une image Docker pour chaque service, suivi de la création d'un fichier docker-compose.yml qui orchestre le déploiement et l'interaction entre ces services.
 
-1. D ![](RackMultipart20240121-1-gwx6n6_html_5510d40e6d3c084.png) ocker file
+1. Docker file (Gateway Example)
+
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/0136ef3b-c3be-44ff-b2ac-fff238d965d9)
+
 
 1. Docker compose :
 
-![](RackMultipart20240121-1-gwx6n6_html_d02005773f7917e1.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/b6c294c7-7821-425f-b54c-cfa525426098)
 
-![](RackMultipart20240121-1-gwx6n6_html_ca209de6114dac61.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/f8d1c5f8-df8f-49ca-a34f-66250f753728)
 
-![](RackMultipart20240121-1-gwx6n6_html_f6cfc307ed5f3898.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/3c98e19f-17ce-4b9a-8102-958e4d5b873d)
 
-![](RackMultipart20240121-1-gwx6n6_html_5a5ebfe5745deb23.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/c815133e-f092-4e05-b0ad-2aa92c0ce7ec)
 
-![](RackMultipart20240121-1-gwx6n6_html_fff043061d41bbda.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/d9ed5587-c067-428d-aabe-49260f5c0929)
 
-![](RackMultipart20240121-1-gwx6n6_html_77785078293c0faa.jpg)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/780c8c22-2ecb-40c8-8420-ddcd7ad46d78)
 
 ## Avantages :
 
@@ -155,7 +158,7 @@ Les conteneurs Docker garantissent que chaque environnement, du développement �
 
 Le processus CI/CD est mis en place à l'aide de Jenkins, automatisant le processus de construction, de test et de déploiement. Cela garantit une intégration continue et une livraison rapide des nouvelles fonctionnalités.
 
-![](RackMultipart20240121-1-gwx6n6_html_7f60ce56834178b.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/c5137bfa-e82c-44f0-918e-740e475830f5)
 
 # Déploiement automatique :
 
@@ -163,21 +166,21 @@ Le processus CI/CD est mis en place à l'aide de Jenkins, automatisant le proces
 
 L'intégration de Ngrok facilite le déploiement automatisé et fiable des microservices, garantissant une disponibilité constante de la plateforme. Cette approche devient particulièrement avantageuse lorsqu'elle est conjuguée à l'utilisation de webhooks. Les webhooks, des mécanismes permettant à un système de notifier automatiquement un autre système lorsqu'un événement particulier se produit, bénéficient grandement de l'utilisation de Ngrok.
 
-![](RackMultipart20240121-1-gwx6n6_html_c71560616aa32bf.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/3f33630a-0abd-4d0e-9913-4a2a05a86225)
 
-![](RackMultipart20240121-1-gwx6n6_html_db2cb9bd8db8c6e1.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/01b8f3bf-f804-4c4b-9e55-47a6392a63a9)
 
-![](RackMultipart20240121-1-gwx6n6_html_5f38cb159354d8f7.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/e01670d9-50a4-48fc-a8d8-4530104c2da4)
 
 # Integration de Sonarqube :
 
 ## Pipline :
 
-![](RackMultipart20240121-1-gwx6n6_html_f87a8e22c562eaed.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/a1eddf67-87a2-4143-947a-91383ba37eb4)
 
-![](RackMultipart20240121-1-gwx6n6_html_b3be5662804d4afd.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/38efec54-e378-4247-8c20-e6f9e208be44)
 
-![](RackMultipart20240121-1-gwx6n6_html_431de647e483da6a.png)
+![image](https://github.com/HoussamNa/CarbuTrackFullEdition/assets/77208956/21dd9f4f-31f6-4426-a58b-5625f2b56119)
 
 # Conclusion :
 
